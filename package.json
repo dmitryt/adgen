@@ -1,0 +1,23 @@
+{
+  "name": "adgen",
+  "version": "0.0.1",
+  "description": "Command line tool for building Angular components",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "keywords": [
+    "angular",
+    "cli"
+  ],
+  "author": "Dmitry Tselinko <dmitry.tselinko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.7.1",
+    "winston": "~0.9.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "~2.2.1"
+  }
+}
