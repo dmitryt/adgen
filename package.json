@@ -4,7 +4,7 @@
   "description": "Command line tool for building Angular.js components(controller, directive, service, factory).",
   "main": "main.js",
   "bin": {
-    "adgen": "./bin/adgen"
+    "adgen": "./main.js"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive"
