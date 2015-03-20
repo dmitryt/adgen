@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Command line tool for building Angular.js components(controller, directive, service, factory).",
   "main": "main.js",
+  "bin": {
+    "adgen": "./bin/adgen"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive"
   },
