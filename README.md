@@ -1,3 +1,5 @@
+###Description
+Inspired by [ember-cli](http://www.ember-cli.com/). Command line tool for building Angular.js components(controller, directive, service, factory).
 ###Installation
 ```
 $ npm install adgen -g
