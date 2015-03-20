@@ -1,26 +1,27 @@
 {
-  "name": "adgen",
-  "version": "0.0.1",
-  "description": "Command line tool for building Angular.js components(controller, directive, service, factory).",
-  "main": "main.js",
-  "bin": {
-    "adgen": "./main.js"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --recursive"
-  },
-  "keywords": [
-    "angular",
-    "cli"
-  ],
-  "author": "Dmitry Tselinko <dmitry.tselinko@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "~2.7.1",
-    "winston": "~0.9.0"
-  },
-  "devDependencies": {
-    "chai": "^2.1.2",
-    "mocha": "~2.2.1"
-  }
+	"name": "adgen",
+	"version": "0.0.1",
+	"description": "Command line tool for building Angular.js components(controller, directive, service, factory).",
+	"main": "main.js",
+	"bin": {
+		"adgen": "./main.js"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/mocha --recursive"
+	},
+	"keywords": ["angular", "cli"],
+	"author": "Dmitry Tselinko <dmitry.tselinko@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/dmitryt/adgen.git"
+	},
+	"dependencies": {
+		"commander": "~2.7.1",
+		"winston": "~0.9.0"
+	},
+	"devDependencies": {
+		"chai": "^2.1.2",
+		"mocha": "~2.2.1"
+	}
 }
