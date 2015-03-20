@@ -3,7 +3,7 @@
 	var ID = "%name%";
 
 	angular.module("%module%")
-	.%entry%(ID, [
+	.%entity%(ID, [
 		function %name%() {
 			{#%yield%#}
 		}

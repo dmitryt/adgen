@@ -1,2 +1,2 @@
 # adgen
-Generator of Angular entries
+Generator of Angular entities
